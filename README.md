@@ -1,4 +1,4 @@
-# neoBTC & wneoBTC
+# neoBTC
 
 **neoBTC** is an index-based rebasing token that represents real BTC held by trusted custodians like BitGo, allowing users to earn yield while maintaining exposure to Bitcoin.  
 **wneoBTC** is a wrapped, non-rebasing version of neoBTC designed for seamless use in DeFi protocols like lending, borrowing, and trading.
