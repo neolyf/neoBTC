@@ -3,13 +3,10 @@
 **neoBTC** is an index-based rebasing token that represents real BTC held by trusted custodians like BitGo, allowing users to earn yield while maintaining exposure to Bitcoin.  
 **wneoBTC** is a wrapped, non-rebasing version of neoBTC designed for seamless use in DeFi protocols like lending, borrowing, and trading.
 
----
-
 ## Overview
 
 NeoLyf’s BTC staking system enables users to benefit from Bitcoin yield without actively managing their BTC. It combines off-chain yield generation with on-chain utility, unlocking new DeFi opportunities for BTC holders in a simple and transparent way.
 
----
 
 ## Contracts
 
@@ -18,7 +15,6 @@ NeoLyf’s BTC staking system enables users to benefit from Bitcoin yield withou
 | `neoBTC.sol` | Rebasing token reflecting BTC staked off-chain       |
 | `wneoBTC.sol`| Non-rebasing wrapper used for DeFi compatibility     |
 
----
 
 ## How It Works
 
@@ -32,9 +28,7 @@ NeoLyf’s BTC staking system enables users to benefit from Bitcoin yield withou
 6. Users can wrap their `neoBTC` into `wneoBTC` for DeFi usage.
 7. When users wish to redeem BTC, the admin burns `neoBTC`, and the user is paid in BTC through the NeoLyf app.
 
----
 
-### mermaid Diagram
 
 ```mermaid
 sequenceDiagram
